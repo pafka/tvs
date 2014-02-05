@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">tvs</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="temperatur_C">Температура, °C</string>
+    <string name="times">Времена</string>
+    <string name="preasure_mbar">Налягане, mbar</string>
+    <string name="action_search">Налягане, mbar</string>
+    <string name="action_compose">Налягане, mbar</string>
+    <string name="action_update_interval">Обновяване: </string>
+    <string name="yes">Да</string>
+    <string name="no">Не</string>
+    <string name="refresh_interval_error">Моля, въведете положително цяло число.</string>
+    <string name="refresh_title_text">обновено:</string>
+    <string name="refresh_interval_hint">например 30 секунди</string>
+    <string name="connection_error_102">Грешка 102: Върнат е празен резултат от сървъра!</string>
+    <string name="connection_error_103">Грешка 103: Върнат е празен резултат от сървъра!</string>
+    <string name="connection_error_112">Грешка 112: Върнат е грешен брой стойности от сървъра!</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="disable">Disable</string>
+    <string name="ok">OK</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
+    <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label">Loading…</string>
+    <string name="refresh_time_in_secods">Време за обновяване [s]</string>
+    <string name="tu_gore">ТУ\nгоре</string>
+    <string name="tu_dolu">ТУ\nдолу</string>
+    <string name="ekrani_otvoreni">Екрани\nотворени</string>
+    <string name="ekrani_zatvoreni">Екрани\nзатворени</string>
+    <string name="kapak_otvoren">Капак\nотворен</string>
+    <string name="kapak_zatvoren">Капак\nзатворен</string>
+    <string name="no_water">НЯМА\nВОДА</string>
+    <string name="yes_water">ИМА\nВОДА</string>
+    <string name="alarm">АЛАРМА</string>
+    <string name="button_confirm_details_out">Моля, потвърдете натискане на бутона "Изваждане на детайли".</string>
+    <string name="button_confirm_vacuuming">Моля, потвърдете натискане на бутона "Вакуум".</string>
+    <string name="button_confirm_start_stop_process">Моля, потвърдете натискане на бутона "Старт процес".</string>
+    <string name="button_detaili">Изваждане на детайли</string>
+    <string name="button_vacuum_start">Вакуум</string>
+    <string name="button_preferences">Настройки</string>
+    <string name="button_start_process">Старт процес</string>
+    <string name="button_posvetka_off">Подсветка изключена</string>
+    <string name="message_from_server_command_ok">Командата е приета за изпълнение.</string>
+    <string name="message_from_server_command_pending">В момента се изпълнява друга команда!\nМоля, опитайте по-късно.</string>
+    <string name="message_from_server_nothing_to_do">Изглежда командата се изпълнява в момента.\nМоля, опреснете екрана и проверете желаната команда още веднъж.</string>
+
+</resources>

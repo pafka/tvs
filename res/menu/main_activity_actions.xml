@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:visible="false"
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/action_search"/>
+    <item
+        android:id="@+id/action_update_interval"
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/action_update_interval"/>
+    <item
+        android:visible="false"
+        android:id="@+id/action_compose"
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/action_compose"/>
+
+</menu>

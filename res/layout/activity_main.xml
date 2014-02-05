@@ -1,0 +1,297 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:id="@+id/linearlayout_scrollcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:padding="2dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:maxLines="1"
+                    android:padding="2dp"
+                    android:scrollHorizontally="true"
+                    android:text="@string/temperatur_C"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/temp_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/temp_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:padding="2dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:maxLines="1"
+                    android:padding="2dp"
+                    android:scrollHorizontally="true"
+                    android:text="@string/times"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/time_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/time_step"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/time_step_remaining"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:padding="2dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:maxLines="1"
+                    android:padding="2dp"
+                    android:scrollHorizontally="true"
+                    android:text="@string/preasure_mbar"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/preasure_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/preasure_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:padding="2dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TU_up"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="@string/tu_gore" />
+
+                <TextView
+                    android:id="@+id/TU_down"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="@string/tu_dolu" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/ekrani_otvoreni"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="@string/ekrani_otvoreni" />
+
+                <TextView
+                    android:id="@+id/ekrani_zatvoreni"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="@string/ekrani_zatvoreni" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/kapak_otvoren"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="@string/kapak_otvoren" />
+
+                <TextView
+                    android:id="@+id/kapak_zatvoren"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="@string/kapak_zatvoren" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/no_water"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/no_water" />
+
+            <TextView
+                android:id="@+id/pwm"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/alarm" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:visibility="gone"
+            android:paddingTop="5dp" >
+
+            <Button
+                android:id="@+id/button_details_pullout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/gray"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/button_detaili" />
+
+            <Button
+                android:id="@+id/button_vacuuming"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/gray"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/button_vacuum_start" />
+
+            <Button
+                android:id="@+id/button_go_preferences"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/gray"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/button_preferences" />
+
+            <Button
+                android:id="@+id/button_start_stop_process"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/gray"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/button_start_process" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
